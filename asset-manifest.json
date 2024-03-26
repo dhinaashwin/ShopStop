@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ShopStop/static/css/main.fc1bf0ae.css",
-    "main.js": "/ShopStop/static/js/main.17ca3934.js",
+    "main.css": "/ShopStop/static/css/main.1e8b4ba6.css",
+    "main.js": "/ShopStop/static/js/main.f5666ea1.js",
     "static/media/1001_Shirt_03.jpg": "/ShopStop/static/media/1001_Shirt_03.1a74733352e98a26d46f.jpg",
     "static/media/1001_Shirt_04.jpg": "/ShopStop/static/media/1001_Shirt_04.a02bcc1a1deb077556b5.jpg",
     "static/media/1001_Shirt_01.jpg": "/ShopStop/static/media/1001_Shirt_01.ca09cd9f2f66af2d78cc.jpg",
@@ -37,18 +37,18 @@
     "static/media/bottoms.jpg": "/ShopStop/static/media/bottoms.0a1de0f8bbd65c37aba7.jpg",
     "static/media/Hoodies.jpg": "/ShopStop/static/media/Hoodies.a368292007c269679f8d.jpg",
     "static/media/NewArrivals.jpg": "/ShopStop/static/media/NewArrivals.4adcc5ee5b292436d577.jpg",
-    "static/media/search.png": "/ShopStop/static/media/search.89b828b5f944e6d54a5b.png",
-    "static/media/shopping-bag-2.png": "/ShopStop/static/media/shopping-bag-2.f1255f97a67f8175d97a.png",
+    "static/media/shopping-cart.png": "/ShopStop/static/media/shopping-cart.f58f961dbbd5c6d29759.png",
+    "static/media/search.png": "/ShopStop/static/media/search.ec173c1498159d0eb37f.png",
     "static/media/slick.svg": "/ShopStop/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/ShopStop/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/ShopStop/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ShopStop/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ShopStop/index.html",
-    "main.fc1bf0ae.css.map": "/ShopStop/static/css/main.fc1bf0ae.css.map",
-    "main.17ca3934.js.map": "/ShopStop/static/js/main.17ca3934.js.map"
+    "main.1e8b4ba6.css.map": "/ShopStop/static/css/main.1e8b4ba6.css.map",
+    "main.f5666ea1.js.map": "/ShopStop/static/js/main.f5666ea1.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc1bf0ae.css",
-    "static/js/main.17ca3934.js"
+    "static/css/main.1e8b4ba6.css",
+    "static/js/main.f5666ea1.js"
   ]
 }
