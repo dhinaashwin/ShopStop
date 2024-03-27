@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ShopStop/static/css/main.7739b9f0.css",
-    "main.js": "/ShopStop/static/js/main.e150480b.js",
+    "main.js": "/ShopStop/static/js/main.288af7c2.js",
     "static/media/STICH.png": "/ShopStop/static/media/STICH.b462a31b6cf1a54d4b40.png",
     "static/media/1001_Shirt_03.jpg": "/ShopStop/static/media/1001_Shirt_03.1a74733352e98a26d46f.jpg",
     "static/media/1001_Shirt_04.jpg": "/ShopStop/static/media/1001_Shirt_04.a02bcc1a1deb077556b5.jpg",
@@ -44,10 +44,10 @@
     "static/media/slick.woff": "/ShopStop/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ShopStop/index.html",
     "main.7739b9f0.css.map": "/ShopStop/static/css/main.7739b9f0.css.map",
-    "main.e150480b.js.map": "/ShopStop/static/js/main.e150480b.js.map"
+    "main.288af7c2.js.map": "/ShopStop/static/js/main.288af7c2.js.map"
   },
   "entrypoints": [
     "static/css/main.7739b9f0.css",
-    "static/js/main.e150480b.js"
+    "static/js/main.288af7c2.js"
   ]
 }
