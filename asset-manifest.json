@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/ShopStop/static/css/main.1e8b4ba6.css",
-    "main.js": "/ShopStop/static/js/main.f5666ea1.js",
+    "main.css": "/ShopStop/static/css/main.7739b9f0.css",
+    "main.js": "/ShopStop/static/js/main.e150480b.js",
+    "static/media/STICH.png": "/ShopStop/static/media/STICH.b462a31b6cf1a54d4b40.png",
     "static/media/1001_Shirt_03.jpg": "/ShopStop/static/media/1001_Shirt_03.1a74733352e98a26d46f.jpg",
     "static/media/1001_Shirt_04.jpg": "/ShopStop/static/media/1001_Shirt_04.a02bcc1a1deb077556b5.jpg",
     "static/media/1001_Shirt_01.jpg": "/ShopStop/static/media/1001_Shirt_01.ca09cd9f2f66af2d78cc.jpg",
@@ -22,6 +23,9 @@
     "static/media/1005_Shirt-01.jpg": "/ShopStop/static/media/1005_Shirt-01.98641c9d98a4d938b725.jpg",
     "static/media/1005_Shirt-04.jpg": "/ShopStop/static/media/1005_Shirt-04.9df27fc3376237055f8a.jpg",
     "static/media/1005_Shirt-03.jpg": "/ShopStop/static/media/1005_Shirt-03.0e951ecb62e701558598.jpg",
+    "static/media/Shoes.png": "/ShopStop/static/media/Shoes.8ecc6868350e71e5089f.png",
+    "static/media/Shirts.png": "/ShopStop/static/media/Shirts.3f669dd385123f2bde0d.png",
+    "static/media/TShirts.png": "/ShopStop/static/media/TShirts.a64fcff7cdb16413d2c1.png",
     "static/media/HM Sans Cyrillic Regular.ttf": "/ShopStop/static/media/HM Sans Cyrillic Regular.1aaed225d7c995f510a9.ttf",
     "static/media/Womens.jpeg": "/ShopStop/static/media/Womens.cc0bf5be5e6e084066b6.jpeg",
     "static/media/HM Sans Latin SemiBold.ttf": "/ShopStop/static/media/HM Sans Latin SemiBold.4b8c2f730ce73a8acc55.ttf",
@@ -29,13 +33,8 @@
     "static/media/Discount.jpeg": "/ShopStop/static/media/Discount.b1277c78835cd9a1053d.jpeg",
     "static/media/HM Sans Latin Regular.ttf": "/ShopStop/static/media/HM Sans Latin Regular.289277935f399e7f8bb2.ttf",
     "static/media/Hero.jpeg": "/ShopStop/static/media/Hero.92298836141ae08103d0.jpeg",
-    "static/media/Shirts.jpg": "/ShopStop/static/media/Shirts.0407cdfa15c503443d09.jpg",
-    "static/media/Shoes.jpg": "/ShopStop/static/media/Shoes.312d05a7c8bb79b11044.jpg",
+    "static/media/Bottoms.png": "/ShopStop/static/media/Bottoms.440335ee7a4bf82a66f5.png",
     "static/media/Mens.jpeg": "/ShopStop/static/media/Mens.5c89700f627e345a5f64.jpeg",
-    "static/media/Eyewear.jpg": "/ShopStop/static/media/Eyewear.1e9a7a926e1d8df581ea.jpg",
-    "static/media/Tshirts.jpg": "/ShopStop/static/media/Tshirts.2aaa67fa36f3d93bc2d3.jpg",
-    "static/media/bottoms.jpg": "/ShopStop/static/media/bottoms.0a1de0f8bbd65c37aba7.jpg",
-    "static/media/Hoodies.jpg": "/ShopStop/static/media/Hoodies.a368292007c269679f8d.jpg",
     "static/media/NewArrivals.jpg": "/ShopStop/static/media/NewArrivals.4adcc5ee5b292436d577.jpg",
     "static/media/shopping-cart.png": "/ShopStop/static/media/shopping-cart.f58f961dbbd5c6d29759.png",
     "static/media/search.png": "/ShopStop/static/media/search.ec173c1498159d0eb37f.png",
@@ -44,11 +43,11 @@
     "static/media/slick.ttf": "/ShopStop/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ShopStop/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ShopStop/index.html",
-    "main.1e8b4ba6.css.map": "/ShopStop/static/css/main.1e8b4ba6.css.map",
-    "main.f5666ea1.js.map": "/ShopStop/static/js/main.f5666ea1.js.map"
+    "main.7739b9f0.css.map": "/ShopStop/static/css/main.7739b9f0.css.map",
+    "main.e150480b.js.map": "/ShopStop/static/js/main.e150480b.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e8b4ba6.css",
-    "static/js/main.f5666ea1.js"
+    "static/css/main.7739b9f0.css",
+    "static/js/main.e150480b.js"
   ]
 }
