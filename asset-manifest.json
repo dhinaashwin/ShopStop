@@ -1,8 +1,16 @@
 {
   "files": {
-    "main.css": "/ShopStop/static/css/main.a9e6ff2e.css",
-    "main.js": "/ShopStop/static/js/main.8f39ad93.js",
+    "main.css": "/ShopStop/static/css/main.e87eaaed.css",
+    "main.js": "/ShopStop/static/js/main.cfa5db27.js",
+    "static/media/Discount2.jpg": "/ShopStop/static/media/Discount2.47f42f97525ce7440f2a.jpg",
+    "static/media/Hero-mobile.jpg": "/ShopStop/static/media/Hero-mobile.99f9c98d363cfbfae7c8.jpg",
+    "static/media/DenimMobile.jpg": "/ShopStop/static/media/DenimMobile.98bcc62ea3f9e30af446.jpg",
+    "static/media/TC.jpg": "/ShopStop/static/media/TC.63a6172563b8034c3834.jpg",
+    "static/media/DenimBig.jpg": "/ShopStop/static/media/DenimBig.ad27dcbaf95ff7f6934a.jpg",
+    "static/media/Hero.jpg": "/ShopStop/static/media/Hero.600bbd73b66e6bb5d0b3.jpg",
+    "static/media/Hero2.jpg": "/ShopStop/static/media/Hero2.567f0c0a3c850ce4a19d.jpg",
     "static/media/STICH.png": "/ShopStop/static/media/STICH.b462a31b6cf1a54d4b40.png",
+    "static/media/Sale2.jpg": "/ShopStop/static/media/Sale2.2f574f5b663b39270350.jpg",
     "static/media/B_1001.jpg": "/ShopStop/static/media/B_1001.1a74733352e98a26d46f.jpg",
     "static/media/C_1001.jpg": "/ShopStop/static/media/C_1001.a02bcc1a1deb077556b5.jpg",
     "static/media/A_1001.jpg": "/ShopStop/static/media/A_1001.ca09cd9f2f66af2d78cc.jpg",
@@ -40,7 +48,6 @@
     "static/media/TShirts.png": "/ShopStop/static/media/TShirts.a64fcff7cdb16413d2c1.png",
     "static/media/Womens.jpeg": "/ShopStop/static/media/Womens.cc0bf5be5e6e084066b6.jpeg",
     "static/media/Discount.jpeg": "/ShopStop/static/media/Discount.b1277c78835cd9a1053d.jpeg",
-    "static/media/Hero.jpeg": "/ShopStop/static/media/Hero.92298836141ae08103d0.jpeg",
     "static/media/TwentiethCenturyforKenmoreLight.ttf": "/ShopStop/static/media/TwentiethCenturyforKenmoreLight.306bed0c22083959716d.ttf",
     "static/media/TwentiethCenturyforKenmoreMedium.ttf": "/ShopStop/static/media/TwentiethCenturyforKenmoreMedium.88720137ff8de50b2d61.ttf",
     "static/media/TwentiethCenturyforKenmoreSemibold.ttf": "/ShopStop/static/media/TwentiethCenturyforKenmoreSemibold.9261412c861ba6eca8f5.ttf",
@@ -55,11 +62,11 @@
     "static/media/slick.ttf": "/ShopStop/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ShopStop/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ShopStop/index.html",
-    "main.a9e6ff2e.css.map": "/ShopStop/static/css/main.a9e6ff2e.css.map",
-    "main.8f39ad93.js.map": "/ShopStop/static/js/main.8f39ad93.js.map"
+    "main.e87eaaed.css.map": "/ShopStop/static/css/main.e87eaaed.css.map",
+    "main.cfa5db27.js.map": "/ShopStop/static/js/main.cfa5db27.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9e6ff2e.css",
-    "static/js/main.8f39ad93.js"
+    "static/css/main.e87eaaed.css",
+    "static/js/main.cfa5db27.js"
   ]
 }
