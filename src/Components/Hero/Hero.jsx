@@ -25,15 +25,15 @@ const Hero = () => {
           controlsStrategy="none"
           className="custom-carousel"
           autoPlay 
-         
+          autoPlayInterval={4000}
         >
           <Link to='/NewCollections'>
           <img src={Hero2} className="xsm:hidden md:block" loading="lazy" />
-          <img src={Hero3} className="md:hidden xsm:block" loading="lazy" />
+          <img src={Hero3} className="md:hidden xsm:block xsm:p-2" loading="lazy" />
         </Link>
         <Link to='/Denim'>
         <img src={Denim1} className="xsm:hidden md:block" />
-        <img src={Denim2} className="md:hidden xsm:block" />
+        <img src={Denim2} className="md:hidden xsm:block xsm:p-2" />
         </Link>
         </AliceCarousel>   
     </section>

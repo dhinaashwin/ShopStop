@@ -12,7 +12,7 @@ const Homepage = () => {
   return (
     <>
     <Category/>
-    <Hero />
+    <Hero/>
    <ProductType/> 
       <Shop title='Mens Wear' button='Shop Men' image={MensImg} side='left' category='men'/>
        <Shop title='Womens Wear' button='Shop Women' image={WomensImg} pos='flex-row-reverse'category='women' />
