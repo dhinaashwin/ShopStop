@@ -1,13 +1,9 @@
 {
   "files": {
-    "main.css": "/ShopStop/static/css/main.1c5ae713.css",
-    "main.js": "/ShopStop/static/js/main.4fc57bab.js",
+    "main.css": "/ShopStop/static/css/main.3bc6976a.css",
+    "main.js": "/ShopStop/static/js/main.fbeabafa.js",
     "static/media/Discount2.jpg": "/ShopStop/static/media/Discount2.47f42f97525ce7440f2a.jpg",
-    "static/media/Hero-mobile.jpg": "/ShopStop/static/media/Hero-mobile.99f9c98d363cfbfae7c8.jpg",
-    "static/media/DenimMobile.jpg": "/ShopStop/static/media/DenimMobile.98bcc62ea3f9e30af446.jpg",
     "static/media/TC.jpg": "/ShopStop/static/media/TC.63a6172563b8034c3834.jpg",
-    "static/media/DenimBig.jpg": "/ShopStop/static/media/DenimBig.ad27dcbaf95ff7f6934a.jpg",
-    "static/media/Hero.jpg": "/ShopStop/static/media/Hero.600bbd73b66e6bb5d0b3.jpg",
     "static/media/Hero2.jpg": "/ShopStop/static/media/Hero2.567f0c0a3c850ce4a19d.jpg",
     "static/media/STICH.png": "/ShopStop/static/media/STICH.b462a31b6cf1a54d4b40.png",
     "static/media/Sale2.jpg": "/ShopStop/static/media/Sale2.2f574f5b663b39270350.jpg",
@@ -33,6 +29,7 @@
     "static/media/B_1002.jpg": "/ShopStop/static/media/B_1002.43eb4e8f461a9c14bb24.jpg",
     "static/media/D_2002.jpg": "/ShopStop/static/media/D_2002.f8bdc066813ab2af3a55.jpg",
     "static/media/D_2001.jpg": "/ShopStop/static/media/D_2001.bfbb98395c5120069972.jpg",
+    "static/media/Hero-mobile.jpg": "/ShopStop/static/media/Hero-mobile.3a2311148eab17ec5686.jpg",
     "static/media/B_1004.jpg": "/ShopStop/static/media/B_1004.2f2691b708da2dca66b7.jpg",
     "static/media/A_1004.jpg": "/ShopStop/static/media/A_1004.9bf68af138e4ca46046b.jpg",
     "static/media/D_1004.jpg": "/ShopStop/static/media/D_1004.b4f2af66c6ddf426727f.jpg",
@@ -40,10 +37,13 @@
     "static/media/B_2002.jpg": "/ShopStop/static/media/B_2002.a9cd44bc7a4d0293c9b3.jpg",
     "static/media/A_2002.jpg": "/ShopStop/static/media/A_2002.e8a17110d2e0defcdf04.jpg",
     "static/media/B_1005.jpg": "/ShopStop/static/media/B_1005.ba38213277c725cf7ce3.jpg",
+    "static/media/DenimMobile.jpg": "/ShopStop/static/media/DenimMobile.8f8624f5b699e3a49b83.jpg",
     "static/media/A_1005.jpg": "/ShopStop/static/media/A_1005.98641c9d98a4d938b725.jpg",
     "static/media/D_1005.jpg": "/ShopStop/static/media/D_1005.9df27fc3376237055f8a.jpg",
     "static/media/C_1005.jpg": "/ShopStop/static/media/C_1005.0e951ecb62e701558598.jpg",
     "static/media/Shoes.png": "/ShopStop/static/media/Shoes.8ecc6868350e71e5089f.png",
+    "static/media/Hero.jpg": "/ShopStop/static/media/Hero.810b9833387a75e3a562.jpg",
+    "static/media/DenimBig.jpg": "/ShopStop/static/media/DenimBig.6100d7e69e86560d937e.jpg",
     "static/media/Shirts.png": "/ShopStop/static/media/Shirts.3f669dd385123f2bde0d.png",
     "static/media/TShirts.png": "/ShopStop/static/media/TShirts.a64fcff7cdb16413d2c1.png",
     "static/media/Womens.jpeg": "/ShopStop/static/media/Womens.cc0bf5be5e6e084066b6.jpeg",
@@ -62,11 +62,11 @@
     "static/media/slick.ttf": "/ShopStop/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ShopStop/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ShopStop/index.html",
-    "main.1c5ae713.css.map": "/ShopStop/static/css/main.1c5ae713.css.map",
-    "main.4fc57bab.js.map": "/ShopStop/static/js/main.4fc57bab.js.map"
+    "main.3bc6976a.css.map": "/ShopStop/static/css/main.3bc6976a.css.map",
+    "main.fbeabafa.js.map": "/ShopStop/static/js/main.fbeabafa.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c5ae713.css",
-    "static/js/main.4fc57bab.js"
+    "static/css/main.3bc6976a.css",
+    "static/js/main.fbeabafa.js"
   ]
 }
