@@ -11,19 +11,16 @@ import './Category.css';
 const Type = () => {
   const categories = [
     { name: "Shirts", image: ShirtsImage, type: "Shirt" },
-    { name: "Bottoms", image: BottomsImage, type: "Bottom" },
+    { name: "Trousers", image: BottomsImage, type: "Trousers" },
     { name: "TShirts", image: TShirtsImage, type: "TShirt" },
     { name: "Shoes", image: ShoesImage, type: "Shoe" },
-    { name: "Shirts", image: ShirtsImage, type: "Shirt" },
-    { name: "Bottoms", image: BottomsImage, type: "Bottom" },
-    { name: "TShirts", image: TShirtsImage, type: "TShirt" },
-    { name: "Shoes", image: ShoesImage, type: "Shoe" },
+    { name: "Jeans", image: BottomsImage, type: "Jeans" }
   ];
 
   const responsive = {
     0: { items: 4 },
     568: { items: 4 },
-    1024: { items: 9 },
+    1024: { items: 6 },
   };
 
   return (
@@ -37,9 +34,9 @@ const Type = () => {
 
       >
         {categories.map((type, index) => (
-          <div key={index} className='Category'>
+          <div key={index} className='Category flex md:px-12'>
             <Link to={`${type.type}`}>
-              <img src={type.image} alt={type.name} className='xsm:w-[150px] md:w-[100px] h-fit' />
+              <img src={type.image} alt={type.name} className='xsm:w-[150px] md:w-[170px] h-fit' />
             </Link>
           </div>
         ))}

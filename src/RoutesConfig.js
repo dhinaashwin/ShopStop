@@ -43,8 +43,8 @@ const RoutesConfig = () => {
         element={<FilteredItems filterType="type" filterValue="Shirt" title="Shirt" />}
       />
       <Route
-        path="/Bottom"
-        element={<FilteredItems filterType="type" filterValue="Bottom" title="Bottom" />}
+        path="/Jeans"
+        element={<FilteredItems filterType="type" filterValue="Jeans" title="Jeans" />}
       />
       <Route
         path="/Shoe"
@@ -54,7 +54,10 @@ const RoutesConfig = () => {
         path="/Hoodie"
         element={<FilteredItems filterType="type" filterValue="Hoodie" />}
       />
-    
+      <Route
+        path="/Trousers"
+        element={<FilteredItems filterType="type" filterValue="Trousers" />}
+      />
       <Route path="/product" element={<Product />}>
         <Route path=":productId" element={<Product />} />
       </Route>

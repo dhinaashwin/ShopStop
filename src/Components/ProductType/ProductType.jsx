@@ -8,7 +8,7 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 const ProductType = () => {
   const responsive = {
-    0: { items: 3 },
+    0: { items: 2 },
     568: { items: 3 },
     1024: { items: 3 },
   };
@@ -20,9 +20,10 @@ const ProductType = () => {
   // Filter data based on selected type
   const filteredData = Datas.filter(item => item.type === selectedType && item.category === 'Men');
   return (
-    <section className='mt-8'>
+    <section className='mt-8 producttype-section'>
           <div className="flex flex-col">
-            <div className="flex justify-center md:gap-16 xsm:gap-4 md:text-[18px] xsm:text-[14px]">
+            <h1 className="m-auto font-b">SHOP BY CATEGORY</h1>
+            <div className="flex justify-center md:gap-16 xsm:gap-4 md:text-[18px] xsm:text-[15px] mt-8">
             <div>
           <button
           className={`radio-button  ${selectedType === 'TShirt' && 'selected'}`}
@@ -58,7 +59,7 @@ const ProductType = () => {
           </div>
 
           </div>
-          <div >
+          <div className='md:block xsm:hidden' >
           <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -81,9 +82,32 @@ const ProductType = () => {
         </motion.div>
             </div>
             <div className='m-auto'>
-<Link className={`radio-button `} to={`/${selectedType}`} onClick={() => handleTypeChange(`${selectedType}`)}>View All</Link>
+<Link className={`radio-button xsm:hidden md:block`} to={`/${selectedType}`} onClick={() => handleTypeChange(`${selectedType}`)}>View All</Link>
 </div>  
-          </div>
+<div className="md:hidden xsm:block mt-6">
+<AliceCarousel
+        mouseTracking
+        responsive={responsive}
+        disableButtonsControls
+        controlsStrategy="none"
+      >
+        {filteredData.map((data, i) => (
+          <div key={i} className='p-2'>
+              <Item
+              key={i}
+              id={data.id}
+              title={data.title}
+              old_price={data.old_price}
+              new_price={data.new_price}
+              image={data.image}
+              image2={data.image2}
+            />
+          </div>   
+        ))}  
+      </AliceCarousel>
+      </div>
+      <Link className={`radio-button md:hidden xsm:block m-auto mt-4`} to={`/${selectedType}`} onClick={() => handleTypeChange(`${selectedType}`)}>View All</Link>
+      </div>
     </section>
 
   )

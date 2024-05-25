@@ -19,7 +19,7 @@ const Hero = () => {
  
         <AliceCarousel
           mouseTracking
-          responsive={{ 0: { items: 1 } }}
+          responsive={{ 0: { items: 0 } }}
           disableButtonsControls
           infinite
           controlsStrategy="none"
@@ -28,12 +28,12 @@ const Hero = () => {
           autoPlayInterval={4000}
         >
           <Link to='/NewCollections'>
-          <img src={Hero2} className="xsm:hidden md:block" loading="lazy" />
-          <img src={Hero3} className="md:hidden xsm:block xsm:p-2" loading="lazy" />
+          <img src={Hero2} className="xsm:hidden md:block m-auto" loading="lazy" />
+          <img src={Hero3} className="md:hidden xsm:block xsm:p-2 m-auto" loading="lazy" />
         </Link>
         <Link to='/Denim'>
-        <img src={Denim1} className="xsm:hidden md:block" />
-        <img src={Denim2} className="md:hidden xsm:block xsm:p-2" />
+        <img src={Denim1} className="xsm:hidden md:block m-auto" loading="lazy" />
+        <img src={Denim2} className="md:hidden xsm:block xsm:p-2 m-auto" loading="lazy"/>
         </Link>
         </AliceCarousel>   
     </section>
