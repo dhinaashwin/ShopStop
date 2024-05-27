@@ -6,7 +6,7 @@ import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import RoutesConfig from './RoutesConfig'; // Importing the Routes component
 import { motion } from 'framer-motion'; // Import motion from framer-motion
-
+import './AliceCarousel.css'
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {

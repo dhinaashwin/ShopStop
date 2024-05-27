@@ -135,13 +135,14 @@ const AllProducts = () => {
       <div className="md:gap-4 xsm:gap-1 grid md:grid-cols-3 xsm:grid-cols-2 md:w-[70%] xsm:w-[100%] items">
         {shuffledData.map((data, i) => (
           <Item
-            key={i}
+            key={data.id}
             id={data.id}
             title={data.title}
             old_price={data.old_price}
             new_price={data.new_price}
             image={data.image}
             image2={data.image2}
+            sizes={data.sizes}
           />
         ))}
       </div>

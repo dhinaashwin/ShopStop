@@ -7,7 +7,7 @@ import Close from "../../images/close.png";
 import Bag from "../../images/shopping-cart.png";
 import Avatar from "../../images/AvatarImg.png";
 import { ShopContext } from "../../Context/ShopContext";
-import Logo from '../../images/STICH.png'
+import Logo from '../../images/Logo.png'
 import "./Header.css";
 
 const Header = ({ onSearch }) => {
@@ -88,7 +88,7 @@ const Header = ({ onSearch }) => {
 
   return (
     <section className="Section-header relative">
-      <div className="Parent-header flex items-center left-0 m-auto z-10 py-3 fixed w-full xsm:justify-between lg:px-10 xl:px-8 md:px-6 sm:px-8 xsm:px-2">
+      <div className="Parent-header flex items-center left-0 m-auto z-10 py-3 fixed w-full xsm:justify-between lg:px-10 xl:px-8 md:px-6 sm:px-8 xsm:px-2 svg-ds-3">
         <img
           src={NavBar}
           onClick={handleToggle}
@@ -138,9 +138,11 @@ const Header = ({ onSearch }) => {
             </motion.nav>
           )}
         </AnimatePresence>
-        <div className="fixed md:-top-[10px] xsm:-top-[2px] left-[50%] flex Title_head xsm:w-40 xsm:h-5 md:w-auto">
+        <Link to="/">
+        <div className="fixed md:-top-[6px] xsm:-top-[6px] left-[50%] flex Title_head xsm:w-28 xsm:h-5 md:w-36">
         <img src={Logo} className="md:w-[250px] xsm:w-[150px] h-fit"></img>
         </div>
+        </Link>
 
        
         <div className="flex md:gap-[2.5vw] xsm:gap-[2vw] items-center ">

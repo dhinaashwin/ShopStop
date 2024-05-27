@@ -8,15 +8,19 @@ import NewArrivalsImg from '../images/NewArrivals.jpg'
 import Category from '../Components/Type/Category';
 import SaleImg from "../images/Sale2.jpg";
 import ProductType from '../Components/ProductType/ProductType';
+import DiscountandNew from '../Components/DiscountAndNew/DiscountandNew';
+import Trending from '../Components/Trending/Trending';
 const Homepage = () => {
   return (
     <>
     <Category/>
     <Hero/>
    <ProductType/> 
-      <Shop title='Mens Wear' button='Shop Men' image={MensImg} side='left' category='men'/>
+      {/* <Shop title='Mens Wear' button='Shop Men' image={MensImg} side='left' category='men'/>
        <Shop title='Womens Wear' button='Shop Women' image={WomensImg} pos='flex-row-reverse'category='women' />
-       <Shop title='New Arrivals' button='Explore Now' image={NewArrivalsImg} side='left' newProduct='Yes' />
+       <Shop title='New Arrivals' button='Explore Now' image={NewArrivalsImg} side='left' newProduct='Yes' /> */}
+       <Trending/>
+       <DiscountandNew/>
        <div className='pt-24'>
      <img src={SaleImg} className="w-full m-auto object-contain" alt="" srcset="" />
    </div> 

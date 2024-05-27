@@ -29,7 +29,7 @@ const Type = () => {
         mouseTracking
         responsive={responsive}
         disableButtonsControls
-        infinite
+
         controlsStrategy="none"
 
       >

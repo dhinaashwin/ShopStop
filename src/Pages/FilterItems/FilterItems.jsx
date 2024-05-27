@@ -118,6 +118,7 @@ const FilteredItems = ({ filterType, filterValue, title }) => {
             new_price={data.new_price}
             image={data.image}
             image2={data.image2}
+            sizes={data.sizes}
           />
         ))}
       </motion.div>

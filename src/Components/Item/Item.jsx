@@ -1,63 +1,72 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion'; // Import motion from framer-motion
+import { motion } from 'framer-motion';
 import './Item.css';
 
-const Item = (props) => {
-  const { id, image, image2, title, old_price, new_price } = props;
-  const [isHovered, setIsHovered] = useState(false);
-  const [currentImage, setCurrentImage] = useState(image); // Track the current image
+const Item = ({
+  id,
+  image,
+  image2,
+  title,
+  old_price,
+  new_price,
+  sizes = []
+}) => {
+  const [currentImage, setCurrentImage] = useState(image);
 
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-
-  // Automatically switch images when viewport width is 480px or less
   useEffect(() => {
     const viewportWidth = window.innerWidth;
+    let intervalId;
+    let timeoutId;
+
     if (viewportWidth <= 480) {
-      const intervalId = setInterval(() => {
-        setCurrentImage((prevImage) => (prevImage === image ? image2 : image));
-      }, 400); // Change images every 100 milliseconds
-  
-      // Clear the interval after 1 second
-      const timeoutId = setTimeout(() => {
+      intervalId = setInterval(() => {
+        setCurrentImage(prevImage => (prevImage === image ? image2 : image));
+      }, 400); // Change images every 400 milliseconds
+
+      timeoutId = setTimeout(() => {
         clearInterval(intervalId);
-      }, 2000); // Disable automatic image change after 1 second
-  
-      // Clean up interval and timeout on component unmount
-      return () => {
-        clearInterval(intervalId);
-        clearTimeout(timeoutId);
-      };
+      }, 2000); // Disable automatic image change after 2 seconds
     }
+
+    return () => {
+      clearInterval(intervalId);
+      clearTimeout(timeoutId);
+    };
   }, [image, image2]);
 
   return (
-    <motion.div className='Parent-item flex flex-col bg-white'>
+    <motion.div className='parent-item flex flex-col bg-white'>
       <div className='img-parent w-full flex justify-center'>
         <Link to={`/product/${id}`}>
           <motion.img
-            src={currentImage} // Use currentImage state
+            src={currentImage}
             className='item-image'
-            alt=''
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
+            alt={title}
+            onMouseEnter={() => setCurrentImage(image2)}
+            onMouseLeave={() => setCurrentImage(image)}
           />
         </Link>
       </div>
-      <div className='title-container mt-[4px]'>
+      <div className='title-container mt-1'>
         <Link to={`/product/${id}`}>
-          <p className='title opacity-95 md:text-[20px] sm:text-[16px] xsm:text-[14px] px-[4px]'>{title}</p>
+          <p className='title opacity-95 md:text-20 sm:text-16 xsm:text-14 px-1'>{title}</p>
         </Link>
       </div>
-      <div className='item-prices flex gap-4 mt-[4px] px-[4px] items-center'>
-        <div className='item-newPrice xsm:text-[14px] sm:text-[18px] md:text-[22px] font-b cursor-pointer'>Rs.{new_price}</div>
-        <div className='item-oldPrice xsm:text-[14px] opacity-60 sm:text-[18px] line-through md:text-[22px]'>Rs.{old_price}</div>
+      <div className='item-prices flex gap-4 mt-1 px-1 items-center'>
+        <div className='item-newPrice xsm:text-14 sm:text-18 md:text-22 font-bold cursor-pointer'>
+          Rs.{new_price}
+        </div>
+        <div className='item-oldPrice xsm:text-14 opacity-60 sm:text-18 line-through md:text-22'>
+          Rs.{old_price}
+        </div>
+      </div>
+      <div className='sizes-container flex gap-2 mt-2 text-slate-800'>
+        {sizes.map(size => (
+          <div key={size} className='size-item'>
+            {size}
+          </div>
+        ))}
       </div>
     </motion.div>
   );

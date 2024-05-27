@@ -1,4 +1,4 @@
-.Parent-item{
+.parent-item{
   .title{
   overflow: hidden;
   text-overflow: ellipsis;
@@ -25,10 +25,12 @@
       object-fit: cover;
       transition: all 0.8s ease;
       aspect-ratio: 3/4;
+      border-radius: 3px;
     }
     img:hover {
       transform: scale(1.1);
       transition: all 0.8s ease;
+      filter:blur(0.3px)
     }
     
   }
